@@ -37,7 +37,7 @@ li {
 #janmainpic {
   width: 643.5px;
   position: absolute;
-  left: 35%;
+  left: 38%;
   top: 180px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
@@ -82,12 +82,12 @@ li {
 
 #mapdino {
   padding-top: 3px;
-  padding-left: 120px;
+  padding-left: 100px;
 }
 
 #mapgun2 {
   padding-top: 70px;
-  padding-left: 210px;
+  padding-left: 200px;
 }
 
 #maphood {
@@ -118,6 +118,19 @@ li {
 }
 
 #nutrition {
+  position:absolute;
   border: 2px solid green;
-  width: 350px
+  width: 350px;
+  border-radius: 10px;
+  background: rgba(19, 247, 212, 0.5);
+  text-shadow: 2px 2px 2px black;
+}
+
+.row {
+  float: left;
+  padding-left: 12px;
+}
+
+.addinfo {
+  padding-top: 3px;
 }
