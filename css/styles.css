@@ -134,3 +134,7 @@ li {
 .addinfo {
   padding-top: 3px;
 }
+
+#link {
+  text-shadow: 2px 2px 2px lightblue;
+}
