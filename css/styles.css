@@ -7,7 +7,6 @@ body {
   font-family: 'Orbitron', sans-serif;
 }
 
-
 h2 {
   font-size: 20px;
 }
@@ -18,12 +17,16 @@ h2 {
 
 #nav-info {
   float: right;
-  font-size: 50px;
+}
+
+h1 {
+  text-shadow: 10px 10px 10px purple;
 }
 
 #Jan-facts {
   padding-top: 60px;
   background: rgba(247, 19, 110, 0.3);
+  padding-left: 20px;
 }
 
 li {
@@ -63,10 +66,12 @@ li {
   border: 20px solid orange;
   border-radius: 30px;
   position: absolute;
-  top: 600px;
-  left: 140px;
+  top: 80%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
   background: rgba(188, 16, 34, 0.5);
-  width: 1000px;
+  width: 800px;
 }
 
 #quadspic {
@@ -105,4 +110,14 @@ li {
 #jangun:hover {
   width: 130%;
   transform: rotate(360deg);
+}
+
+#production {
+  border-top: 10px solid lightblue;
+  padding-top: 10%;
+}
+
+#nutrition {
+  border: 2px solid green;
+  width: 350px
 }
